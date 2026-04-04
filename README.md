@@ -3,13 +3,13 @@
 
 ## About Me
 
-- **Name:** [Your Full Name]
+- **Name:** Julia Robinson
 
-- **GitHub Username:** [robinsju]
+- **GitHub Username:** robinsju
 
-- **Major:** [Cybersecurity and Digital Forensics]
+- **Major:** Cybersecurity and Digital Forensics
 
-- **Semester:** [Spring 2026]
+- **Semester:** Spring 2026
 
 
 ## About This Course
@@ -23,13 +23,13 @@ infrastructure as code, and cloud deployment.
 
 ## What I Hope to Learn
 
-- [I hope to become more fluent in coding language, and truly learn this as an art. I want to know exactly which commands will allow me to have a certain outcome and be able to apply it in a real world concept.]
+- I hope to become more fluent in coding language, and truly learn this as an art. I want to know exactly which commands will allow me to have a certain outcome and be able to apply it in a real world concept.
 
-- [I Want to be able to setup repository without having to use my notes.]
+- I Want to be able to setup repository without having to use my notes.
 
-- [I just want to become proficient in GitHub and in using all my cybersecurity tools.]
+- I just want to become proficient in GitHub and in using all my cybersecurity tools.
 
 
 ## Fun Fact
 
-[I like to crochet, but I only know one pattern, which makes it boring. I also love to use different accents.]
+I like to crochet, but I only know one pattern, which makes it boring. I also love to use different accents.
