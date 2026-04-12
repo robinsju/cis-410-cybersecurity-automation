@@ -33,3 +33,13 @@ infrastructure as code, and cloud deployment.
 ## Fun Fact
 
 I like to crochet, but I only know one pattern, which makes it boring. I also love to use different accents.
+
+## My Week 2 Infrastructure
+
+ 
+
+Runner VM: Robinson-Runner
+
+Runner IP: 192.168.1.160 #fake ip
+
+Pipeline status: [![Hello Pipeline](https://github.com/YOUR-USERNAME/cis-410-cybersecurity-automation/actions/workflows/hello-pipeline.yml/badge.svg)](https://github.com/YOUR-USERNAME/cis-410-cybersecurity-automation/actions/workflows/hello-pipeline.yml)
