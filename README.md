@@ -1,3 +1,5 @@
+[![Hello Pipeline](https://github.com/robinsju/cis-410-cybersecurity-automation/actions/workflows/hello-pipeline.yml/badge.svg)](https://github.com/robinsju/cis-410-cybersecurity-automation/actions/workflows/hello-pipeline.yml)
+
 # CIS 410: Cybersecurity Automation
 
 
