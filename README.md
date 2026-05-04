@@ -46,4 +46,4 @@ Runner IP: 192.168.1.162 #fake ip
 
 Pipeline status: [![Hello Pipeline](https://github.com/YOUR-USERNAME/cis-410-cybersecurity-automation/actions/workflows/hello-pipeline.yml/badge.svg)](https://github.com/robinsju/cis-410-cybersecurity-automation/actions/workflows/hello-pipeline.yml)
 
-Last updated April 11, 2026
+Last updated April 11, 2026# Week 5 security scan test
