@@ -62,3 +62,13 @@ resource "google_compute_firewall" "deny_all_ingress" {
   source_ranges = ["0.0.0.0/0"]
   description   = "Explicit deny-all fallback — blocks unmatched traffic"
 }
+resource "google_compute_firewall" "allow_https" {
+  name    = "${var.vpc_name}-allow-https-manual"
+  network = google_compute_network.vpc.name
+  project = var.project_id
+  allow {
+    protocol = "tcp"
+    ports    = ["443"]
+  }
+  source_ranges = ["0.0.0.0/0"]
+}
