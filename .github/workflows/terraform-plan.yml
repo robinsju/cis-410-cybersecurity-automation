@@ -1,0 +1,40 @@
+name: Terraform Plan
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "terraform/week7/**"
+  workflow_dispatch:
+jobs:
+  terraform-plan:
+    runs-on: ubuntu-latest
+    name: Plan VPC Infrastructure
+    permissions:
+      id-token: write   # REQUIRED: allows GitHub to request an OIDC token
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      # GitHub sends a JWT to GCP. GCP validates it using the pool you created.
+      # GCP returns a temporary token. Nothing is stored.
+      - name: Authenticate to GCP via OIDC
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.WIF_PROVIDER }}
+          service_account: ${{ vars.SA_EMAIL }}
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.6.6
+      - name: Terraform Init
+        run: terraform init
+        working-directory: terraform/week7
+      - name: Terraform Validate
+        run: terraform validate
+        working-directory: terraform/week7
+      - name: Terraform Plan
+        run: terraform plan -no-color
+        working-directory: terraform/week7
+        env:
+          TF_VAR_project_id: ${{ vars.TF_VAR_PROJECT_ID }}
+          TF_VAR_my_ip_cidr: ${{ vars.TF_VAR_MY_IP_CIDR }}

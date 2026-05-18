@@ -1,0 +1,10 @@
+# terraform/week6/terraform.tfvars.example
+# ─────────────────────────────────────────────────────────────────────────────
+# Copy this file to terraform.tfvars and fill in your Project ID.
+# terraform.tfvars is in .gitignore — do NOT commit it to GitHub.
+#
+#   cp terraform.tfvars.example terraform.tfvars
+# ─────────────────────────────────────────────────────────────────────────────
+
+project_id = "cis410-yourname"   # Replace with your actual GCP Project ID
+region     = "us-central1"

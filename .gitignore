@@ -1,0 +1,6 @@
+# Ignore sensitive Terraform files anywhere in the project
+**/.terraform/
+**/*.tfvars
+**/*.tfstate
+**/*.tfstate.backup
+# Ignore IDE/editor config files
